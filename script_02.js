@@ -1,0 +1,1 @@
+//“script_02.js” → Crie um programa que calcule a área de um retângulo, sendo que os comprimentos da altura e da base são números inteiros informados pelo usuário. A área do retângulo é calculada multiplicando-se a altura pela base.

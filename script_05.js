@@ -1,0 +1,1 @@
+//“script_05.js” → Crie um programa que receba um valor de temperatura em Celsius e converta-o para Fahrenheit. F = (C * 9/5)+32

@@ -1,0 +1,1 @@
+//“script_04.js” → Crie um programa que calcule a área, perímetro e o diâmetro de um círculo, tendo o comprimento do raio informado pelo usuário. Use Math.PI.

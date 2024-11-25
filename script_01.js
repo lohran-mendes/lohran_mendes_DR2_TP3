@@ -1,0 +1,1 @@
+//“script_01.js” → Crie um programa que calcule a área de um quadrado, sendo que o comprimento do lado é informado pelo usuário. A área do quadrado é calculada elevando-se o lado ao quadrado.Use Math.pow para aplicar a potenciação.

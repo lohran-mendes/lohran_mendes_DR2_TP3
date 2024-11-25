@@ -1,0 +1,1 @@
+// “script_06.js” → Crie um programa que leia um número inteiro e mostre se o mesmo é positivo, negativo ou zero.
