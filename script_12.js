@@ -6,3 +6,48 @@
 // Pensionista (C)
 // A aplicação deve retornar o valor final da compra de acordo com o tipo de consumidor.
 // Caso o tipo de consumidor não exista, exibir uma mensagem informando erro e não exibir o valor da compra do usuário.
+
+const inputTotalValue = Number(prompt('Insira o valor total da sua compra.'))
+const typeCustomer = (prompt('O cliente é Gestante(A), Aposentado(B) ou Pensionista(C)?').trim().toLowerCase())
+let discountValue = 0;
+let typeDiscount = '';
+
+if (inputTotalValue > 80) {
+  switch (typeCustomer) {
+    case 'a':
+      discountValue = inputTotalValue - (inputTotalValue * 0.2)
+      typeDiscount = '20%';
+      break;
+    case 'b':
+      discountValue = inputTotalValue - (inputTotalValue * 0.15)
+      typeDiscount = '15%';
+      break;
+    case 'c':
+      discountValue = inputTotalValue - (inputTotalValue * 0.1)
+      typeDiscount = '10%';
+      break;
+    default:
+      break;
+  } 
+  alert(`O valor com o desconto de ${typeDiscount} ficou igual a R$${discountValue.toFixed(2)}`)
+} else if( inputTotalValue > 0) {
+  switch (typeCustomer) {
+    case 'a':
+      discountValue = inputTotalValue - (inputTotalValue * 0.15)
+      typeDiscount = '15%';
+      break;
+    case 'b':
+      discountValue = inputTotalValue - (inputTotalValue * 0.1)
+      typeDiscount = '10%';
+      break;
+    case 'c':
+      discountValue = inputTotalValue - (inputTotalValue * 0.05)
+      typeDiscount = '5%';
+      break;
+    default:
+      break;
+  } 
+  alert(`O valor com o desconto de ${typeDiscount} ficou igual a ${discountValue.toFixed(2)}`)
+} else{
+  alert('O valor inserido não é válido.')
+}
